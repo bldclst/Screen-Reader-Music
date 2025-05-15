@@ -9,7 +9,7 @@ Note: .musicxml or .xml are the only compatible formats. Do not try uploading xo
 1. This application only works on scores with one stoff. Piano scores and scores with multiple instrument parts will most likely encounter strange bugs.
 2. I built this app without the intention of individuals running it. It was originally designed to be run on a VM that I could access from all of my devices.
 
-
+<br>
 
 
 ## Example output:
@@ -35,7 +35,7 @@ Note: A3, Type: quarter, Duration: 1.0, Staccato Tenuto
 
 
 
-
+<br>
 
 
 
