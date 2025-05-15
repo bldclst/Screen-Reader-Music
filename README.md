@@ -1,6 +1,8 @@
 # Overview
 
-Screen Reader Music is a Python Application that acts as a Web Server. You can upload music scores as MusicXML files.
+Screen Reader Music is a Python Application that acts as a Web Server. You can upload music scores as MusicXML files and the application will present the score in a screen reader accessible format measure by measure.
+
+Currently, the application can handle notes, articulations, dynamics, tempo and expression text, and time/key signature changes.
 
 Note: .musicxml or .xml are the only compatible formats. Do not try uploading xompressed MusicXML files like .mxl.
 
