@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Screen Reader Music</title>
+</head>
+<body>
+    <h2>{{ title }} - {{ ds }} Measures</h2>
+    {{ measure_data|safe }}
+    <form action="/score" method="post">
+        <button aria-label="Go to Previous Measure" type="submit" name="action" value="previous">Previous</button>
+        <button aria-label="Go to Next Measure" type="submit" name="action" value="next">Next</button>
+         <input aria-label="Enter Measure Number" type="text" name="ctr" size="4" style="text-align: center;" value="{{ count }}" >
+        <button aria-label="Jump to Indicated Measure" type="submit" name="action" value="jump">Go</button>
+        </form>   
+      <h4> Current Time Signature: {{ ts }}</h4>
+      <h4>Current Key Signature: {{ ks }}</h4>
+      <a href="/">Upload Score</a>
+    <form>
+
+    </form>
+</body>
+</html>
