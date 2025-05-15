@@ -36,10 +36,8 @@ Note: A3, Type: quarter, Duration: 1.0, Staccato Tenuto
 
 
 <br>
-
-
-
-
+<br>
+<br>
 
 # Deployment Instructions
 
@@ -49,8 +47,7 @@ Install the latest version of Python: https://www.python.org/downloads/
 
 Note: Use custom install and verify both pip is installed and that your systems PATH variable is updated.
 
-
-
+<br>
 
 ## Step 2 - Download the app:
 
@@ -58,8 +55,7 @@ You can download the app code from this page by navigating to the "Code" menu Dr
 
 Move and unzip the app code in a folder of your choosing.
 
-
-
+<br>
 
 ## Step 3 - Setup:
 
@@ -79,8 +75,7 @@ Run the setup.py script:
 python3 setup.py
 ```
 
-
-
+<br>
 
 ## Step 4 - Run:
 
