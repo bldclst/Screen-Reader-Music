@@ -4,6 +4,12 @@ Screen Reader Music is a Python Application that acts as a Web Server. You can u
 
 Note: .musicxml or .xml are the only compatible formats. Do not try uploading xompressed MusicXML files like .mxl.
 
+## Disclaimers
+
+1. This application only works on scores with one stoff. Piano scores and scores with multiple instrument parts will most likely encounter strange bugs.
+2. I built this app without the intention of individuals running it. It was originally designed to be run on a VM that I could access from all of my devices.
+
+
 ## Example output:
 
 ### Title - # Measures
@@ -24,6 +30,9 @@ Note: A3, Type: quarter, Duration: 1.0, Staccato Tenuto
 ### Current Time Signature: 4/4
 ### Current Key Signature: D-major
 
+
+
+
 # Deployment Instructions
 
 ## Step 1 - Download Python:
@@ -32,11 +41,13 @@ Install the latest version of Python: https://www.python.org/downloads/
 
 Note: Use custom install and verify both pip is installed and that your systems PATH variable is updated.
 
+
 ## Step 2 - Download the app:
 
 You can download the app code from this page by navigating to the "Code" menu Drop-down button. Marked as a form control by screen reader. Then navigate to the "Download ZIP" link.
 
 Move and unzip the app code in a folder of your choosing.
+
 
 ## Step 3 - Setup:
 
@@ -55,6 +66,7 @@ Run the setup.py script:
 ```
 python3 setup.py
 ```
+
 
 ## Step 4 - Run:
 
